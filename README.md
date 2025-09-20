@@ -14,6 +14,7 @@ https://the-wild-oasis-eight-sepia.vercel.app
 - View key hotel statistics (bookings, occupancy rates, sales).
 - Time filters: last 7, 30, and 90 days.
 - Interactive data visualization with charts.
+- **Today’s Activities:** Quickly check in or check out guests with active bookings.
 
 ### 📝 Booking Management
 - Browse all bookings in an interactive table.

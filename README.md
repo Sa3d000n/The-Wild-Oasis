@@ -4,7 +4,7 @@ An integrated web application (dashboard) for managing a small hotel called **Th
 The app helps staff efficiently manage **bookings, cabins, guests, and settings** through a modern and user-friendly interface.
 
 🌐 **[Try the App Live 🚀](#)**  
-*(Add your live demo link here)*
+https://the-wild-oasis-eight-sepia.vercel.app
 
 ---
 

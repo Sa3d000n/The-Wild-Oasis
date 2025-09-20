@@ -1,12 +1,73 @@
-# React + Vite
+# 🏨 The Wild Oasis – Hotel Management App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+An integrated web application (dashboard) for managing a small hotel called **The Wild Oasis**.  
+The app helps staff efficiently manage **bookings, cabins, guests, and settings** through a modern and user-friendly interface.
 
-Currently, two official plugins are available:
+🌐 **[Try the App Live 🚀](#)**  
+*(Add your live demo link here)*
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## Expanding the ESLint configuration
+## ✨ Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+### 📊 Dashboard
+- View key hotel statistics (bookings, occupancy rates, sales).
+- Time filters: last 7, 30, and 90 days.
+- Interactive data visualization with charts.
+
+### 📝 Booking Management
+- Browse all bookings in an interactive table.
+- Filter bookings by status (unconfirmed, checked in, checked out).
+- Sort bookings by start date, end date, or amount.
+- Update booking status (check in/out).
+- Delete bookings.
+
+### 🏡 Cabin Management
+- View all available cabins.
+- Add new cabins (price, discount, max capacity).
+- Edit or delete cabins.
+
+### 👤 User & Account Management
+- Create new employee accounts with role-based access.
+- Update personal account details (name, avatar, password).
+
+### ⚙️ Settings
+- Configure hotel preferences:
+  - Min/max nights per booking
+  - Guest limits
+  - Breakfast pricing
+
+### 🌙 UI & Experience
+- **Dark Mode** toggle for an eye-friendly interface.
+- Secure authentication system with Supabase.
+- Real-time updates powered by React Query.
+
+---
+
+## 🛠️ Tech Stack
+
+**Frontend**
+- React.js + Vite
+- React Router – Routing
+- React Query – Server state & synchronization
+- Styled Components – Styling
+- React Hook Form – Forms & validation
+- Recharts – Charts
+- React Hot Toast – Notifications
+- Date-fns – Date utilities
+
+**Backend**
+- Supabase – Database, authentication, storage
+
+**Developer Tools**
+- ESLint, React Query Devtools
+
+---
+
+## 🚀 Installation & Setup
+
+Clone the repository:
+
+```bash
+git clone https://github.com/your-username/wild-oasis.git
+cd wild-oasis

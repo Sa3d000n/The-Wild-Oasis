@@ -30,14 +30,14 @@ function CabinTable() {
   const arranger = order === "asc" ? 1 : -1;
   const { cabins, isPending } = useCabins();
   if (isPending) return <Spinner />;
-    if (!cabins.length) return <Empty resourceName="cabins" />;
-  
+  if (!cabins.length) return <Empty resourceName="cabins" />;
+  console.log(cabins);
   let filteredCabins;
   if (filterValue === "all") filteredCabins = cabins;
   if (filterValue === "no-discount")
-    filteredCabins = cabins.filter((cabin) => cabin.discount < 0);
+    filteredCabins = cabins.filter((cabin) => cabin.discount <= 0);
   if (filterValue === "with-discount")
-    filteredCabins = cabins.filter((cabin) => cabin.discount >= 0);
+    filteredCabins = cabins.filter((cabin) => cabin.discount > 0);
   const sortedCabins = filteredCabins.sort(
     (a, b) => (a[field] - b[field]) * arranger
   );
